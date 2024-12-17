@@ -1,0 +1,7066 @@
+{
+  "ABAP": {
+    "name": "ABAP",
+    "description": "SAP Table ABAP",
+    "fields": [
+      {
+        "name": "MEMORY_ID",
+        "data_element": "Memory ID for EXPORT/IMPORT memory ID",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      }
+    ]
+  },
+  "ADCP": {
+    "name": "ADCP",
+    "description": "SAP Table ADCP",
+    "fields": [
+      {
+        "name": "CLIENT",
+        "data_element": "Client",
+        "type": "T000",
+        "length": "CLNT",
+        "decimals": ""
+      },
+      {
+        "name": "ADDRNUMBER",
+        "data_element": "Address number",
+        "type": "ADRC",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PERSNUMBER",
+        "data_element": "Person number",
+        "type": "ADRP",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "DATE_FROM",
+        "data_element": "Valid-from date - in current Release only 00010101 possible",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "NATION",
+        "data_element": "Version ID for International Addresses",
+        "type": "TSADV",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "DATE_TO",
+        "data_element": "Valid-to date in current Release only 99991231 possible",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "COMP_PERS",
+        "data_element": "Flag: Person in company (C) or private (P) address",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "SO_KEY",
+        "data_element": "SAP-Office key",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "DEPARTMENT",
+        "data_element": "Department",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FUNCTION",
+        "data_element": "Function",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "BUILDING",
+        "data_element": "Building (number or code)",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FLOOR",
+        "data_element": "Floor in building",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ROOMNUMBER",
+        "data_element": "Room or Appartment Number",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ID_CODE",
+        "data_element": "Short name for correspondence",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "IH_MAIL",
+        "data_element": "Int. mail postal code",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "SORT1",
+        "data_element": "(Not Supported) Search Term",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "SORT2",
+        "data_element": "(Not Supported) Search Term",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "SORT_PHN",
+        "data_element": "(Not Supported) Phonetic Search Sort Field",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ALT_COMPNY",
+        "data_element": "Business address number, if different (not used)",
+        "type": "ADRC",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "DEFLT_COMM",
+        "data_element": "Communication Method (Key) (Business Address Services)",
+        "type": "TSAC",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "TEL_NUMBER",
+        "data_element": "First telephone no.: dialling code+number",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "TEL_EXTENS",
+        "data_element": "First Telephone No.: Extension",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FAX_NUMBER",
+        "data_element": "First fax no.: dialling code+number",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FAX_EXTENS",
+        "data_element": "First fax no.: extension",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FLAGCOMM2",
+        "data_element": "Flag: Telephone number(s) maintained",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FLAGCOMM3",
+        "data_element": "Flag: Fax number(s) maintained",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FLAGCOMM4",
+        "data_element": "Flag: Teletex number(s) maintained",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FLAGCOMM5",
+        "data_element": "Flag: Telex number(s) maintained",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FLAGCOMM6",
+        "data_element": "Indicator: E-Mail Address(es) Maintained",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FLAGCOMM7",
+        "data_element": "Flag: RML (remote mail) addresse(s) maintained",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FLAGCOMM8",
+        "data_element": "Flag: X.400 addresse(s) maintained",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FLAGCOMM9",
+        "data_element": "Flag: RFC destination(s) maintained",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FLAGCOMM10",
+        "data_element": "Flag: Printer maintained",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FLAGCOMM11",
+        "data_element": "Flag: SSF maintained",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FLAGCOMM12",
+        "data_element": "Flag: URI/FTP address maintained",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FLAGCOMM13",
+        "data_element": "Flag: Pager address maintained",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ADCP_UUID",
+        "data_element": "UUID Used in the Address",
+        "type": "",
+        "length": "RAW",
+        "decimals": ""
+      },
+      {
+        "name": "UUID_BELATED",
+        "data_element": "Indicator: UUID was generated later",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ID_CATEGORY",
+        "data_element": "Category of an Address ID",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ADCP_ERR_STATUS",
+        "data_element": "Error Status of Address",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      }
+    ]
+  },
+  "ADRC": {
+    "name": "ADRC",
+    "description": "SAP Table ADRC",
+    "fields": [
+      {
+        "name": "CLIENT",
+        "data_element": "Client",
+        "type": "T000",
+        "length": "CLNT",
+        "decimals": ""
+      },
+      {
+        "name": "ADDRNUMBER",
+        "data_element": "Address number",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "DATE_FROM",
+        "data_element": "Valid-from date - in current Release only 00010101 possible",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "NATION",
+        "data_element": "Version ID for International Addresses",
+        "type": "TSADV",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "DATE_TO",
+        "data_element": "Valid-to date in current Release only 99991231 possible",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "TITLE",
+        "data_element": "Form-of-Address Key",
+        "type": "TSAD3",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "MC_TOWNSHIP",
+        "data_element": "Township name in upper case for search help",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      }
+    ]
+  },
+  "ADRCT": {
+    "name": "ADRCT",
+    "description": "SAP Table ADRCT",
+    "fields": [
+      {
+        "name": "CLIENT",
+        "data_element": "Client",
+        "type": "T000",
+        "length": "CLNT",
+        "decimals": ""
+      },
+      {
+        "name": "ADDRNUMBER",
+        "data_element": "Address number",
+        "type": "ADRC",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "DATE_FROM",
+        "data_element": "Valid-from date - in current Release only 00010101 possible",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "NATION",
+        "data_element": "Version ID for International Addresses",
+        "type": "TSADV",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "LANGU",
+        "data_element": "Language Key",
+        "type": "T002",
+        "length": "LANG",
+        "decimals": ""
+      },
+      {
+        "name": "REMARK",
+        "data_element": "Address notes",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      }
+    ]
+  },
+  "ADRP": {
+    "name": "ADRP",
+    "description": "SAP Table ADRP",
+    "fields": [
+      {
+        "name": "CLIENT",
+        "data_element": "Client",
+        "type": "T000",
+        "length": "CLNT",
+        "decimals": ""
+      },
+      {
+        "name": "PERSNUMBER",
+        "data_element": "Person number",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "DATE_FROM",
+        "data_element": "Valid-from date - in current Release only 00010101 possible",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "NATION",
+        "data_element": "Version ID for International Addresses",
+        "type": "TSADV",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "DATE_TO",
+        "data_element": "Valid-to date in current Release only 99991231 possible",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "TITLE",
+        "data_element": "Form-of-Address Key",
+        "type": "TSAD3",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "NAME_FIRST",
+        "data_element": "First name",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "NAME_LAST",
+        "data_element": "Last name",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "NAME2",
+        "data_element": "Name of person at birth",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "NAMEMIDDLE",
+        "data_element": "Middle name or second forename of a person",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "NAME_LAST2",
+        "data_element": "Second surname of a person",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "NAME_TEXT",
+        "data_element": "Full Name of Person",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "CONVERTED",
+        "data_element": "Status of Field 'Full Name' NAME_TEXT",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "TITLE_ACA1",
+        "data_element": "Academic Title: Key",
+        "type": "TSAD2",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "TITLE_ACA2",
+        "data_element": "Second academic title (key)",
+        "type": "TSAD2",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PREFIX1",
+        "data_element": "Name Prefix (Key)",
+        "type": "TSAD4",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PREFIX2",
+        "data_element": "2nd name prefix (key)",
+        "type": "TSAD4",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "TITLE_SPPL",
+        "data_element": "Name supplement, e.g. noble title (key)",
+        "type": "TSAD5",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "NICKNAME",
+        "data_element": "Nickname or name used",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "INITIALS",
+        "data_element": "\"Middle Initial\" or personal initials",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "NAMEFORMAT",
+        "data_element": "Name format",
+        "type": "T005N",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "NAMCOUNTRY",
+        "data_element": "Country for name format rule",
+        "type": "T005",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PROFESSION",
+        "data_element": "Profession",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "SEX",
+        "data_element": "Gender key",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "LANGU",
+        "data_element": "Language Key",
+        "type": "T002",
+        "length": "LANG",
+        "decimals": ""
+      },
+      {
+        "name": "PERS_GROUP",
+        "data_element": "Person Group (Key) (Business Address Services)",
+        "type": "TSAD8",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FLAGGROUPS",
+        "data_element": "Flag: There are other person group assignments",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "SORT1",
+        "data_element": "Search Term 1",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "SORT2",
+        "data_element": "Search Term 2",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "SORT_PHN",
+        "data_element": "(Not Supported) Phonetic Search Sort Field",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ADDR_COMP",
+        "data_element": "(not used)",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ADDR_PERS",
+        "data_element": "(not used)",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FLPERSTEL",
+        "data_element": "Flag: person has personal telephone numbers",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FLPERSCOMM",
+        "data_element": "Flag: Person has personal comm. numbers (apart from Tel.)",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PERSORIGIN",
+        "data_element": "Personal data source (key)",
+        "type": "TSAD6",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "MC_NAMEFIR",
+        "data_element": "First name in upper case for search help",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "MC_NAMELAS",
+        "data_element": "Last name in upper-case for search help",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "MC_NAME2",
+        "data_element": "NAME2 field in upper case for matchcode",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "LANGU_CREA",
+        "data_element": "Address record creation original language",
+        "type": "",
+        "length": "LANG",
+        "decimals": ""
+      },
+      {
+        "name": "ADRP_UUID",
+        "data_element": "UUID Used in the Address",
+        "type": "",
+        "length": "RAW",
+        "decimals": ""
+      },
+      {
+        "name": "UUID_BELATED",
+        "data_element": "Indicator: UUID was generated later",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ID_CATEGORY",
+        "data_element": "Category of an Address ID",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ADRP_ERR_STATUS",
+        "data_element": "Error Status of Address",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      }
+    ]
+  },
+  "ADTEL": {
+    "name": "ADTEL",
+    "description": "SAP Table ADTEL",
+    "fields": [
+      {
+        "name": "CONSNUMBER",
+        "data_element": "Sequence Number",
+        "type": "NUMC",
+        "length": null,
+        "decimals": null
+      },
+      {
+        "name": "COUNTRY",
+        "data_element": "Country for telephone/fax number",
+        "type": "CHAR",
+        "length": null,
+        "decimals": null
+      },
+      {
+        "name": "FLGDEFAULT",
+        "data_element": "Standard Sender Address in this Communication Type",
+        "type": "CHAR",
+        "length": null,
+        "decimals": null
+      },
+      {
+        "name": "FLG_NOUSE",
+        "data_element": "Flag: This Communication Number is Not Used",
+        "type": "CHAR",
+        "length": null,
+        "decimals": null
+      },
+      {
+        "name": "HOME_FLAG",
+        "data_element": "Recipient address in this communication type (mail sys.grp)",
+        "type": "CHAR",
+        "length": null,
+        "decimals": null
+      },
+      {
+        "name": "TEL_NUMBER",
+        "data_element": "Telephone no.: dialling code+number",
+        "type": "CHAR",
+        "length": null,
+        "decimals": null
+      },
+      {
+        "name": "TEL_EXTENS",
+        "data_element": "Telephone no.: Extension",
+        "type": "CHAR",
+        "length": null,
+        "decimals": null
+      },
+      {
+        "name": "TELNR_LONG",
+        "data_element": "Complete number: dialling code+number+extension",
+        "type": "CHAR",
+        "length": null,
+        "decimals": null
+      },
+      {
+        "name": "TELNR_CALL",
+        "data_element": "Telephone number for determining caller",
+        "type": "CHAR",
+        "length": null,
+        "decimals": null
+      },
+      {
+        "name": "DFT_RECEIV",
+        "data_element": "Indicator: Telephone is SMS-Enabled",
+        "type": "CHAR",
+        "length": null,
+        "decimals": null
+      },
+      {
+        "name": "R3_USER",
+        "data_element": "Indicator: Telephone is a Mobile Telephone",
+        "type": "CHAR",
+        "length": null,
+        "decimals": null
+      },
+      {
+        "name": "REMARK",
+        "data_element": "Communication link notes",
+        "type": "CHAR",
+        "length": null,
+        "decimals": null
+      },
+      {
+        "name": "VALID_FROM",
+        "data_element": "Communication Data: Valid From (YYYYMMDDHHMMSS)",
+        "type": "CHAR",
+        "length": null,
+        "decimals": null
+      },
+      {
+        "name": "VALID_TO",
+        "data_element": "Communication Data: Valid To (YYYYMMDDHHMMSS)",
+        "type": "CHAR",
+        "length": null,
+        "decimals": null
+      },
+      {
+        "name": "UPDATEFLAG",
+        "data_element": "Change operation code ('I'nsert, 'U'pdate, 'D'elete)",
+        "type": "CHAR",
+        "length": null,
+        "decimals": null
+      }
+    ]
+  },
+  "AFKO": {
+    "name": "AFKO",
+    "description": "SAP Table AFKO",
+    "fields": [
+      {
+        "name": "MANDT",
+        "data_element": "Client",
+        "type": "T000",
+        "length": "CLNT",
+        "decimals": ""
+      },
+      {
+        "name": "AUFNR",
+        "data_element": "Order Number",
+        "type": "AUFK",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "GLTRP",
+        "data_element": "Basic finish date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "GSTRP",
+        "data_element": "Basic Start Date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "FTRMS",
+        "data_element": "Scheduled release date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "GLTRS",
+        "data_element": "Scheduled finish",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "GSTRS",
+        "data_element": "Scheduled start",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "GSTRI",
+        "data_element": "Actual start date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "GETRI",
+        "data_element": "Confirmed Order Finish Date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "GLTRI",
+        "data_element": "Actual finish date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "FTRMI",
+        "data_element": "Actual release date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "FTRMP",
+        "data_element": "Planned release date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "RSNUM",
+        "data_element": "Number of Reservation/Dependent Requirement",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "GASMG",
+        "data_element": "Total scrap quantity in the order",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "GAMNG",
+        "data_element": "Total order quantity",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "GMEIN",
+        "data_element": "Base Unit of Measure",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "PLNBEZ",
+        "data_element": "Material Number",
+        "type": "MARA",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PLNTY",
+        "data_element": "Task List Type",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PLNNR",
+        "data_element": "Key for Task List Group",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PLNAW",
+        "data_element": "Application of the task list",
+        "type": "TCA09",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PLNAL",
+        "data_element": "Group Counter",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PVERW",
+        "data_element": "Task list usage",
+        "type": "T411",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PLAUF",
+        "data_element": "Date for routing transfer",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "PLSVB",
+        "data_element": "To lot size",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "PLNME",
+        "data_element": "Task list unit of measure",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "PLSVN",
+        "data_element": "From Lot Size",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "PDATV",
+        "data_element": "Valid-From Date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "PAENR",
+        "data_element": "Change Number",
+        "type": "AENR",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PLGRP",
+        "data_element": "Responsible planner group/department",
+        "type": "T024A",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "LODIV",
+        "data_element": "Lot size divisor",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "STLTY",
+        "data_element": "BOM category",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "STLBEZ",
+        "data_element": "Material Number",
+        "type": "MARA",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "STLST",
+        "data_element": "BOM status",
+        "type": "T415S",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "STLNR",
+        "data_element": "Bill of material",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "SDATV",
+        "data_element": "Valid-From Date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "SBMNG",
+        "data_element": "Base quantity",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "SBMEH",
+        "data_element": "Base Unit of Measure",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "SAENR",
+        "data_element": "Change Number",
+        "type": "AENR",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "STLAL",
+        "data_element": "Alternative BOM",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "STLAN",
+        "data_element": "BOM Usage",
+        "type": "T416",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "SLSVN",
+        "data_element": "From Lot Size",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "SLSBS",
+        "data_element": "To Lot Size",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "AUFLD",
+        "data_element": "Date of BOM Explosion/Routing Transfer",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "DISPO",
+        "data_element": "MRP controller for the order",
+        "type": "T024D",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "AUFPL",
+        "data_element": "Routing number of operations in the order",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "FEVOR",
+        "data_element": "Production Supervisor",
+        "type": "T024F",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FHORI",
+        "data_element": "Scheduling Margin Key for Floats",
+        "type": "T436A",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "TERKZ",
+        "data_element": "Scheduling type",
+        "type": "T482",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "REDKZ",
+        "data_element": "Reduction indicator for scheduling",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "APRIO",
+        "data_element": "Order priority",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "NTZUE",
+        "data_element": "Superior network number",
+        "type": "AUFK",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "VORUE",
+        "data_element": "Superior activity",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PROFID",
+        "data_element": "Network profile",
+        "type": "TCN41",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "VORGZ",
+        "data_element": "Float before production (in days)",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "SICHZ",
+        "data_element": "Float after production (in days)",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "FREIZ",
+        "data_element": "Release period (in days)",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "UPTER",
+        "data_element": "Indicator: Change to Scheduled Dates",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "BEDID",
+        "data_element": "ID of the capacity requirements record",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "PRONR",
+        "data_element": "Project definition",
+        "type": "PROJ",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "ZAEHL",
+        "data_element": "Internal counter",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "MZAEHL",
+        "data_element": "Internal counter",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "ZKRIZ",
+        "data_element": "Counter for additional criteria",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "PRUEFLOS",
+        "data_element": "Inspection Lot Number",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "KLVARP",
+        "data_element": "Costing variant for planned costs",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "KLVARI",
+        "data_element": "Costing variant for actual costs",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "RGEKZ",
+        "data_element": "Indicator: Backflushing for order",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PLART",
+        "data_element": "Basis for scheduling",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FLG_AOB",
+        "data_element": "Indicator: relationships",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FLG_ARBEI",
+        "data_element": "Indicator: Default value work is relevant",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "GLTPP",
+        "data_element": "Finish date (forecast)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "GSTPP",
+        "data_element": "Forecast start date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "GLTPS",
+        "data_element": "Scheduled forecast finish",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "GSTPS",
+        "data_element": "Scheduled forecast start",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "FTRPS",
+        "data_element": "Scheduled release date (forecast)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "RDKZP",
+        "data_element": "Reduction indicator for scheduling (forecast)",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "TRKZP",
+        "data_element": "Scheduling type (forecast)",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "RUECK",
+        "data_element": "Completion confirmation number for the operation",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "RMZHL",
+        "data_element": "Internal counter",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "IGMNG",
+        "data_element": "Yield confirmed from order confirmation",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "RATID",
+        "data_element": "ID of the capacity requirements record",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "GROID",
+        "data_element": "ID of the capacity requirements record",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "CUOBJ",
+        "data_element": "Configuration (internal object number)",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "GLUZS",
+        "data_element": "Scheduled finish time",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "GSUZS",
+        "data_element": "Scheduled Start (Time)",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "REVLV",
+        "data_element": "Revision Level",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "RSHTY",
+        "data_element": "Object types of the CIM resource",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "RSHID",
+        "data_element": "Object ID of the resource",
+        "type": "CRID",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "RSNTY",
+        "data_element": "Object types of the CIM resource",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "RSNID",
+        "data_element": "Object ID of the resource",
+        "type": "CRID",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "NAUTERM",
+        "data_element": "Indicator: Do not schedule automatically",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "NAUCOST",
+        "data_element": "Indicator: Do not cost automatically",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "STUFE",
+        "data_element": "Level (in multi-level BOM explosions)",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "WEGXX",
+        "data_element": "Path (for multi-level BOM explosions)",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "VWEGX",
+        "data_element": "Path (for multi-level BOM explosions)",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "ARSNR",
+        "data_element": "Number of Reservation/Dependent Requirement",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "ARSPS",
+        "data_element": "Order Item Number",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "MAUFNR",
+        "data_element": "Number of superior order",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "LKNOT",
+        "data_element": "Left node in collective order",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "RKNOT",
+        "data_element": "Right node of a collective order",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PRODNET",
+        "data_element": "Indicator: Order is part of collective order",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "IASMG",
+        "data_element": "Scrap confirmed for order",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "ABARB",
+        "data_element": "Confirmation: Degree of processing",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "AUFNT",
+        "data_element": "Number of superior network",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "AUFPT",
+        "data_element": "Routing number of operations in the order",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "APLZT",
+        "data_element": "General counter for order",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "NO_DISP",
+        "data_element": "Effective for Materials Planning",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "CSPLIT",
+        "data_element": "Apportionment Structure",
+        "type": "MAKV",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "AENNR",
+        "data_element": "Change Number",
+        "type": "AENR",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "CY_SEQNR",
+        "data_element": "Seq. number order",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "BREAKS",
+        "data_element": "Indicator:  Scheduling allowing for breaks",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "VORGZ_TRM",
+        "data_element": "Scheduled float before production in days",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "SICHZ_TRM",
+        "data_element": "Scheduled float after production in days",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "TRMDT",
+        "data_element": "Date of the last scheduling",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "GLUZP",
+        "data_element": "Basic finish (time)",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "GSUZP",
+        "data_element": "Basic start time",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "GSUZI",
+        "data_element": "Actual start time",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "GEUZI",
+        "data_element": "Confirmed order finish (time)",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "GLUPP",
+        "data_element": "Forecast finish (time)",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "GSUPP",
+        "data_element": "Forecast start (time)",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "GLUPS",
+        "data_element": "Scheduled forecast finish time",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "GSUPS",
+        "data_element": "Scheduled start time (Forecast)",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "CHSCH",
+        "data_element": "Search procedure for batch determination",
+        "type": "T683",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "KAPT_VORGZ",
+        "data_element": "Float (bef. production) remaining after finite scheduling",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "KAPT_SICHZ",
+        "data_element": "Remaining float after finite scheduling",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "LEAD_AUFNR",
+        "data_element": "Leading order in current processing",
+        "type": "AUFK",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PNETSTARTD",
+        "data_element": "Outline start of collective network (date)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "PNETSTARTT",
+        "data_element": "Start time of a collective order",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "PNETENDD",
+        "data_element": "Outline finish of collective order (date)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "PNETENDT",
+        "data_element": "Outline finish time",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "KBED",
+        "data_element": "Ind: do not create capacity requirements",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "KKALKR",
+        "data_element": "Indicator: Components will not be costed",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "SFCPF",
+        "data_element": "Production Scheduling Profile",
+        "type": "TCO43",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "RMNGA",
+        "data_element": "Total confirmed rework quantity",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "GSBTR",
+        "data_element": "Overall commitment date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "VFMNG",
+        "data_element": "Committed quantity for order acc. to ATP check components",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "NOPCOST",
+        "data_element": "Do not calculate planned costs for order",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "NETZKONT",
+        "data_element": "Indicator for the account assignment of a network(hdr/act.)",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ATRKZ",
+        "data_element": "Request ID",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "OBJTYPE",
+        "data_element": "Change indicator",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "CH_PROC",
+        "data_element": "Process that has lead to the change of an object",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "KAPVERSA",
+        "data_element": "Version of Available Capacity",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "COLORDPROC",
+        "data_element": "Collective order with/without automatic goods movement",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "KZERB",
+        "data_element": "Indicator: Project summarization via master data charact.",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "CONF_KEY",
+        "data_element": "Identical object",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "ST_ARBID",
+        "data_element": "Object ID",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "VSNMR_V",
+        "data_element": "Sales document version number",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "TERHW",
+        "data_element": "Scheduling note from order scheduling",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "SPLSTAT",
+        "data_element": "Status of an order in a split hierarchy",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "COSTUPD",
+        "data_element": "Costs are updated",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "MAX_GAMNG",
+        "data_element": "Maximum Value of Total Order Quantity After Distribution",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "MES_ROUTINGID",
+        "data_element": "Key of a Routing from an ME System",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ADPSP",
+        "data_element": "PM/PS Reference Element",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "RMANR",
+        "data_element": "Sales and Distribution Document Number",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "POSNR_RMA",
+        "data_element": "Item number of the SD document",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "POSNV_RMA",
+        "data_element": "Item number of the SD document",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "CFB_MAXLZ",
+        "data_element": "Maximum Storage Period",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "CFB_LZEIH",
+        "data_element": "Unit for maximum storage period",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "CFB_ADTDAYS",
+        "data_element": "Additional Days",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "CFB_DATOFM",
+        "data_element": "Date of Manufacture",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "CFB_BBDPI",
+        "data_element": "Best-Before Date (BBD)/ Shelf Life Expiration Date (SLED)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "OIHANTYP",
+        "data_element": "Excise Duty Handling Type",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "MILL_RATIO",
+        "data_element": "Factor for Quantity-Based Settlement",
+        "type": "",
+        "length": "INT4",
+        "decimals": ""
+      },
+      {
+        "name": "BMEINS",
+        "data_element": "Base Unit of Measure",
+        "type": "",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "BMENGE",
+        "data_element": "Base quantity",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "MILL_OC_ZUSKZ",
+        "data_element": "Combination Indicator",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      }
+    ]
+  },
+  "AFPO": {
+    "name": "AFPO",
+    "description": "SAP Table AFPO",
+    "fields": [
+      {
+        "name": "MANDT",
+        "data_element": "Client",
+        "type": "T000",
+        "length": "CLNT",
+        "decimals": ""
+      },
+      {
+        "name": "AUFNR",
+        "data_element": "Order Number",
+        "type": "AUFK",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "POSNR",
+        "data_element": "Order Item Number",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "PSOBS",
+        "data_element": "Special procurement type",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "QUNUM",
+        "data_element": "Number of Quota Arrangement",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "QUPOS",
+        "data_element": "Quota Arrangement Item",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "PROJN",
+        "data_element": "Work breakdown structure element (WBS element)",
+        "type": "PRPS",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "PLNUM",
+        "data_element": "Planned order number",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "STRMP",
+        "data_element": "Start date of the planned order",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "ETRMP",
+        "data_element": "Opening date of the planned order",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "KDAUF",
+        "data_element": "Sales order number",
+        "type": "VBUK",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "KDPOS",
+        "data_element": "Sales order item",
+        "type": "VBUP",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "KDEIN",
+        "data_element": "Delivery Schedule for Sales Order",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "BESKZ",
+        "data_element": "Procurement Type",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PSAMG",
+        "data_element": "Scrap quantity in item",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "PSMNG",
+        "data_element": "Order item quantity",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "WEMNG",
+        "data_element": "Quantity of goods received for the order item",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "IAMNG",
+        "data_element": "Expected surplus/deficit for goods receipt",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "AMEIN",
+        "data_element": "Unit of measure for in-house production",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "MEINS",
+        "data_element": "Base Unit of Measure",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "MATNR",
+        "data_element": "Material Number for Order",
+        "type": "MARA",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PAMNG",
+        "data_element": "Fixed quantity of scrap from production",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "PGMNG",
+        "data_element": "Total planned order quantity",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "KNTTP",
+        "data_element": "Account Assignment Category",
+        "type": "T163K",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "TPAUF",
+        "data_element": "Indicator: Partial conversion",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "LTRMI",
+        "data_element": "Actual delivery/finish date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "LTRMP",
+        "data_element": "Delivery date from planned order",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "KALNR",
+        "data_element": "Cost Estimate Number for Cost Est. w/o Qty Structure",
+        "type": "CKHS",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "UEBTO",
+        "data_element": "Overdelivery Tolerance Limit",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "UEBTK",
+        "data_element": "Indicator: Unlimited Overdelivery Allowed",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "UNTTO",
+        "data_element": "Underdelivery Tolerance Limit",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "INSMK",
+        "data_element": "Stock Type",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "WEPOS",
+        "data_element": "Goods Receipt Indicator",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "BWTAR",
+        "data_element": "Valuation Type",
+        "type": "T149D",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "BWTTY",
+        "data_element": "Valuation Category",
+        "type": "T149C",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PWERK",
+        "data_element": "Planning plant for the order",
+        "type": "T001W",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "LGORT",
+        "data_element": "Storage Location",
+        "type": "T001L",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "UMREZ",
+        "data_element": "Numerator for Conversion to Base Units of Measure",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "UMREN",
+        "data_element": "Denominator for conversion to base units of measure",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "WEBAZ",
+        "data_element": "Goods receipt processing time in days",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "ELIKZ",
+        "data_element": "\"Delivery Completed\" Indicator",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "SAFNR",
+        "data_element": "Run schedule header number",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "VERID",
+        "data_element": "Production Version",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "SERNR",
+        "data_element": "BOM explosion number",
+        "type": "SNUM",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "TECHS",
+        "data_element": "Parameter Variant/Standard Variant",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "DWERK",
+        "data_element": "Plant",
+        "type": "T001W",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "DAUTY",
+        "data_element": "Order category",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "DAUAT",
+        "data_element": "Order Type",
+        "type": "T003O",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "DGLTP",
+        "data_element": "Basic finish date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "DGLTS",
+        "data_element": "Scheduled finish",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "DFREI",
+        "data_element": "Indicator: Order released/partially released (for MRP)",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "DNREL",
+        "data_element": "Indicator: Order item not relevant for MRP",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "VERTO",
+        "data_element": "MRP Distribution Key",
+        "type": "T437V",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "SOBKZ",
+        "data_element": "Special Stock Indicator",
+        "type": "T148",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "KZVBR",
+        "data_element": "Consumption Posting",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "WEWRT",
+        "data_element": "Value of goods received in local currency",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "WEUNB",
+        "data_element": "Goods Receipt, Non-Valuated",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ABLAD",
+        "data_element": "Unloading Point",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "WEMPF",
+        "data_element": "Goods Recipient/Ship-To Party",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "CHARG",
+        "data_element": "Batch Number",
+        "type": "MCHA",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "GSBER",
+        "data_element": "Business Area",
+        "type": "TGSB",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "WEAED",
+        "data_element": "Indicator: Goods receipt indicator can be changed",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "CUOBJ",
+        "data_element": "Configuration (internal object number)",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "KBNKZ",
+        "data_element": "Kanban Indicator",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ARSNR",
+        "data_element": "Settlement reservation number",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "ARSPS",
+        "data_element": "Item number of the settlement reservation",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "KRSNR",
+        "data_element": "Number of Reservation/Dependent Requirement",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "KRSPS",
+        "data_element": "Item Number of Reservation/Dependent Requirement",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "KCKEY",
+        "data_element": "Cost collector key",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "RTP01",
+        "data_element": "Cost collector for repetitive manufacturing",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "RTP02",
+        "data_element": "Cost collector for KANBAN",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "RTP03",
+        "data_element": "Cost collector for valuated sales order stock",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "RTP04",
+        "data_element": "Cost collector for external PPC",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "KSVON",
+        "data_element": "Cost collector valid from",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "KSBIS",
+        "data_element": "Cost collector valid to",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "OBJNP",
+        "data_element": "Object number",
+        "type": "ONR00",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "NDISR",
+        "data_element": "Ind.: Material in order item is not relevant for MRP",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "VFMNG",
+        "data_element": "Committed quantity for order acc. to ATP check components",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "GSBTR",
+        "data_element": "Overall commitment date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "KZAVC",
+        "data_element": "Indicator for type of availability check",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "KZBWS",
+        "data_element": "Valuation of Special Stock",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "XLOEK",
+        "data_element": "Deletion flag",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "SERNP",
+        "data_element": "Serial Number Profile",
+        "type": "T377P",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ANZSN",
+        "data_element": "Number of serial numbers",
+        "type": "",
+        "length": "INT4",
+        "decimals": ""
+      },
+      {
+        "name": "OBJTYPE",
+        "data_element": "Change indicator",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "CH_PROC",
+        "data_element": "Process that has lead to the change of an object",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FXPRU",
+        "data_element": "Fixed-Price Co-Product",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "CUOBJ_ROOT",
+        "data_element": "Configuration (internal object number)",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "BERID",
+        "data_element": "MRP Area",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "TECHS_COPY",
+        "data_element": "Parameter Variant/Standard Variant",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "KUNNR2",
+        "data_element": "Customer Number",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "MILL_OC_AUFNR_U",
+        "data_element": "Number of original order",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "MILL_OC_RUMNG",
+        "data_element": "Confirmed Quantity for Item",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "MILL_OC_SORT",
+        "data_element": "Item Sequence",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "OIHANTYPI",
+        "data_element": "Excise Duty Handling Type",
+        "type": "OIH5",
+        "length": "CHAR",
+        "decimals": ""
+      }
+    ]
+  },
+  "AFRU": {
+    "name": "AFRU",
+    "description": "SAP Table AFRU",
+    "fields": [
+      {
+        "name": "MANDT",
+        "data_element": "Client",
+        "type": "T000",
+        "length": "CLNT",
+        "decimals": ""
+      },
+      {
+        "name": "RUECK",
+        "data_element": "Completion confirmation number for the operation",
+        "type": "NUMC",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "RMZHL",
+        "data_element": "Confirmation counter",
+        "type": "NUMC",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "ERSDA",
+        "data_element": "Confirmation entry date",
+        "type": "DATS",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "ERNAM",
+        "data_element": "Name of the person who entered the confirmation",
+        "type": "CHAR",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "LAEDA",
+        "data_element": "Date of Last Change",
+        "type": "DATS",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "AENAM",
+        "data_element": "Name of Person Who Changed Object",
+        "type": "CHAR",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "BUDAT",
+        "data_element": "Posting date",
+        "type": "DATS",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "ARBID",
+        "data_element": "Object ID",
+        "type": "NUMC",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "WERKS",
+        "data_element": "Plant",
+        "type": "T001W",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "LTXA1",
+        "data_element": "Confirmation text",
+        "type": "CHAR",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "TXTSP",
+        "data_element": "Language Key",
+        "type": "T002",
+        "length": "LANG",
+        "decimals": ""
+      },
+      {
+        "name": "ISERH",
+        "data_element": "Confirmed break time",
+        "type": "QUAN",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "ZEIER",
+        "data_element": "Unit for the break time",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "ILE01",
+        "data_element": "Unit of measure for the activity to be confirmed",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "ISM01",
+        "data_element": "Activity Currently to be Confirmed",
+        "type": "QUAN",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "WTY_IND",
+        "data_element": "Warranty indicator",
+        "type": "CHAR",
+        "length": "CHAR",
+        "decimals": ""
+      }
+    ]
+  },
+  "AFVC": {
+    "name": "AFVC",
+    "description": "SAP Table AFVC",
+    "fields": [
+      {
+        "name": "MANDT",
+        "data_element": "Client",
+        "type": "T000",
+        "length": "CLNT",
+        "decimals": ""
+      },
+      {
+        "name": "AUFPL",
+        "data_element": "Routing number of operations in the order",
+        "type": "NUMC",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "APLZL",
+        "data_element": "General counter for order",
+        "type": "NUMC",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "PLNFL",
+        "data_element": "Sequence",
+        "type": "CHAR",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PLNKN",
+        "data_element": "Number of the task list node",
+        "type": "NUMC",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "PLNAL",
+        "data_element": "Group Counter",
+        "type": "CHAR",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PLNTY",
+        "data_element": "Task List Type",
+        "type": "TCA01",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "VINTV",
+        "data_element": "Increment between referenced operations",
+        "type": "DEC",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "PLNNR",
+        "data_element": "Key for Task List Group",
+        "type": "CHAR",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "CPD_UPDAT",
+        "data_element": "Time Stamp",
+        "type": "DEC",
+        "length": "DEC",
+        "decimals": ""
+      }
+    ]
+  },
+  "AFVV": {
+    "name": "AFVV",
+    "description": "SAP Table AFVV",
+    "fields": [
+      {
+        "name": "MANDT",
+        "data_element": "Client",
+        "type": "T000",
+        "length": "CLNT",
+        "decimals": ""
+      },
+      {
+        "name": "AUFPL",
+        "data_element": "Routing number of operations in the order",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "APLZL",
+        "data_element": "General counter for order",
+        "type": "AFVC",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "MEINH",
+        "data_element": "Unit of Measure for Activity/Operation",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "UMREN",
+        "data_element": "Denominator for converting rtg and op units of measure",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "UMREZ",
+        "data_element": "Numerator for converting task list and oper. un. of measure",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "BMSCH",
+        "data_element": "Base Quantity",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "ZMERH",
+        "data_element": "Break",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "ZEIER",
+        "data_element": "Unit for the break time",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "VGE01",
+        "data_element": "Unit of measure for the standard value",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "VGW01",
+        "data_element": "Standard Value",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "VGE02",
+        "data_element": "Unit of measure for the standard value",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "VGW02",
+        "data_element": "Standard Value",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "VGE03",
+        "data_element": "Unit of measure for the standard value",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "VGW03",
+        "data_element": "Standard Value",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "VGE04",
+        "data_element": "Unit of measure for the standard value",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "VGW04",
+        "data_element": "Standard Value",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "VGE05",
+        "data_element": "Unit of measure for the standard value",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "VGW05",
+        "data_element": "Standard Value",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "VGE06",
+        "data_element": "Unit of measure for the standard value",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "VGW06",
+        "data_element": "Standard Value",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "ZEIMU",
+        "data_element": "Unit for the minimum overlap time",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "ZMINU",
+        "data_element": "Minimum overlap time",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "MINWE",
+        "data_element": "Minimum Send-Ahead Quantity",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "ZEIMB",
+        "data_element": "Unit for the minimum processing time",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "ZMINB",
+        "data_element": "Minimum processing time",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "ZEILM",
+        "data_element": "Unit for the maximum wait time",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "ZLMAX",
+        "data_element": "Maximum wait time",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "ZEILP",
+        "data_element": "Unit for the required wait time",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "ZLPRO",
+        "data_element": "Minimum wait time",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "ZEIWN",
+        "data_element": "Unit for the standard queue time",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "ZWNOR",
+        "data_element": "Standard queue time",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "ZEIWM",
+        "data_element": "Unit for the minumum queue time",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "ZWMIN",
+        "data_element": "Minimum queue time",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "ZEITN",
+        "data_element": "Unit for the standard move time",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "ZTNOR",
+        "data_element": "Standard move time",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "ZEITM",
+        "data_element": "Unit for the minimum move time",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "ZTMIN",
+        "data_element": "Minimum move time",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "PLIFZ",
+        "data_element": "Planned Delivery Time in Days",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "DAUNO",
+        "data_element": "Normal duration of the activity",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "DAUNE",
+        "data_element": "Normal duration/unit",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "DAUMI",
+        "data_element": "Minimum activity duration",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "DAUME",
+        "data_element": "Unit for the minimum duration",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "EINSA",
+        "data_element": "Constraint on the basic start date for the activity",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "EINSE",
+        "data_element": "Constraint on the finish date of the activity",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ARBEI",
+        "data_element": "Work involved in the activity",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "ARBEH",
+        "data_element": "Unit for work",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "MGVRG",
+        "data_element": "Operation Quantity",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "ASVRG",
+        "data_element": "Operation scrap",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "LMNGA",
+        "data_element": "Total Yield Confirmed",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "XMNGA",
+        "data_element": "Total scrap quantity confirmed",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "GMNGA",
+        "data_element": "Confirmed yield in order unit of measure",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "ISM01",
+        "data_element": "Previously confirmed activity",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "ISM02",
+        "data_element": "Previously confirmed activity",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "ISM03",
+        "data_element": "Previously confirmed activity",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "ISM04",
+        "data_element": "Previously confirmed activity",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "ISM05",
+        "data_element": "Previously confirmed activity",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "ISM06",
+        "data_element": "Previously confirmed activity",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "ISMNW",
+        "data_element": "Actual work",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "FSAVD",
+        "data_element": "Earliest scheduled start: Execution (date)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "FSAVZ",
+        "data_element": "Earliest scheduled start: Execution (time)",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "FSSBD",
+        "data_element": "Earliest scheduled start: Processing (date)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "FSSBZ",
+        "data_element": "Earliest scheduled start: Processing (time)",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "FSSAD",
+        "data_element": "Earliest scheduled start: Teardown (date)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "FSSAZ",
+        "data_element": "Earliest scheduled start: Teardown (time)",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "FSEDD",
+        "data_element": "Earliest scheduled finish: Execution (date)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "FSEDZ",
+        "data_element": "Earliest scheduled finish: Execution (time)",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "FSSLD",
+        "data_element": "Earliest scheduled start: Wait (date)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "FSSLZ",
+        "data_element": "Earliest scheduled start: Wait (time)",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "FSELD",
+        "data_element": "Earliest scheduled finish: Wait (date)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "FSELZ",
+        "data_element": "Earliest scheduled finish: Wait (time)",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "SSAVD",
+        "data_element": "Latest scheduled start: Execution (date)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "SSAVZ",
+        "data_element": "Latest scheduled start: Execution (time)",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "SSSBD",
+        "data_element": "Latest scheduled start: Processing (date)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "SSSBZ",
+        "data_element": "Latest scheduled start: Processing (time)",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "SSSAD",
+        "data_element": "Latest scheduled start: Teardown (date)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "SSSAZ",
+        "data_element": "Latest scheduled start: Teardown (time)",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "SSEDD",
+        "data_element": "Latest scheduled finish: Execution (date)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "SSEDZ",
+        "data_element": "Latest scheduled finish: Execution (time)",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "SSSLD",
+        "data_element": "Latest scheduled start: Wait time (date)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "SSSLZ",
+        "data_element": "Latest scheduled start: Wait time",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "SSELD",
+        "data_element": "Latest scheduled finish: Wait time (date)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "SSELZ",
+        "data_element": "Latest scheduled finish: Wait time",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "ISAVD",
+        "data_element": "Actual operation start (date)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "IEAVD",
+        "data_element": "Actual finish of operation (date)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "ISDD",
+        "data_element": "Actual start: Execution (date)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "ISDZ",
+        "data_element": "Actual start: Execution/setup (time)",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "IERD",
+        "data_element": "Actual finish: Setup (date)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "IERZ",
+        "data_element": "Actual finish: Setup (time)",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "ISBD",
+        "data_element": "Actual start: Processing (date)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "ISBZ",
+        "data_element": "Actual start: Processing (time)",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "IEBD",
+        "data_element": "Actual finish: Processing (date)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "IEBZ",
+        "data_element": "Actual processing finish (time)",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "ISAD",
+        "data_element": "Actual start: Teardown (date)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "ISAZ",
+        "data_element": "Actual start: Teardown (time)",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "IEDD",
+        "data_element": "Actual finish: Execution (date)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "IEDZ",
+        "data_element": "Actual finish: Execution (time)",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "PEDD",
+        "data_element": "Forecast finish date of operation from confirmation",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "PEDZ",
+        "data_element": "Forecast finish time of operation from confirmation",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "PUFFR",
+        "data_element": "Free float",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "PUFGS",
+        "data_element": "Total float",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "NTANF",
+        "data_element": "Constraint for activity start (Basic)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "NTANZ",
+        "data_element": "Constraint for activity start time (Basic)",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "NTEND",
+        "data_element": "Constraint for Finish of Activity (Basic)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "NTENZ",
+        "data_element": "Basic finish time of the activity",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "EWSTD",
+        "data_element": "Forecasted start date for the activity",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "EWSTZ",
+        "data_element": "Forecast start time of the activity",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "EWEND",
+        "data_element": "Forecast finish date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "EWENZ",
+        "data_element": "Forecast finish time for the activity",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "EWDAN",
+        "data_element": "Normal duration (from forecast) of activity",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "EWDNE",
+        "data_element": "Unit for forecast normal duration",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "EWDAM",
+        "data_element": "Minimum duration (from forecast) for activity",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "EWDME",
+        "data_element": "Unit for forecast minimum duration",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "EWSTE",
+        "data_element": "Forecast date constraint on activity finish",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "EWSTA",
+        "data_element": "Forecast date constraint on activity start",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "WARTZ",
+        "data_element": "Queue time used for scheduling",
+        "type": "",
+        "length": "FLTP",
+        "decimals": ""
+      },
+      {
+        "name": "WRTZE",
+        "data_element": "Unit of measure for queue time",
+        "type": "",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "RUEST",
+        "data_element": "Setup time",
+        "type": "",
+        "length": "FLTP",
+        "decimals": ""
+      },
+      {
+        "name": "RSTZE",
+        "data_element": "Unit of measure for setup time",
+        "type": "",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "BEARZ",
+        "data_element": "Processing time",
+        "type": "",
+        "length": "FLTP",
+        "decimals": ""
+      },
+      {
+        "name": "BEAZE",
+        "data_element": "Unit of measure for processing time",
+        "type": "",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "ABRUE",
+        "data_element": "Teardown",
+        "type": "",
+        "length": "FLTP",
+        "decimals": ""
+      },
+      {
+        "name": "ARUZE",
+        "data_element": "Unit of measure for teardown",
+        "type": "",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "LIEGZ",
+        "data_element": "Wait time used for scheduling",
+        "type": "",
+        "length": "FLTP",
+        "decimals": ""
+      },
+      {
+        "name": "LIGZE",
+        "data_element": "Unit of measure for wait time",
+        "type": "",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "TRANZ",
+        "data_element": "Move time used for scheduling",
+        "type": "",
+        "length": "FLTP",
+        "decimals": ""
+      },
+      {
+        "name": "TRAZE",
+        "data_element": "Unit of measure for move time",
+        "type": "",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "ISERH",
+        "data_element": "Confirmed break time",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "OFM01",
+        "data_element": "Forecast value used to update the standard value",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "OFM02",
+        "data_element": "Forecast value used to update the standard value",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "OFM03",
+        "data_element": "Forecast value used to update the standard value",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "OFM04",
+        "data_element": "Forecast value used to update the standard value",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "OFM05",
+        "data_element": "Forecast value used to update the standard value",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "OFM06",
+        "data_element": "Forecast value used to update the standard value",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "OFMNW",
+        "data_element": "Forecasted work (actual + remaining)",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "BZOFFB",
+        "data_element": "Reference date for start of sub-operation",
+        "type": "TCA54",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "EHOFFB",
+        "data_element": "Unit for offset to start",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "OFFSTB",
+        "data_element": "Offset to sub-operation start",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "OFFSTE",
+        "data_element": "Offset to sub-operation finish",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "BZOFFE",
+        "data_element": "Reference date for finish of sub-operation",
+        "type": "TCA54",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "EHOFFE",
+        "data_element": "Unit for offset to finish",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "FPAVD",
+        "data_element": "Earliest scheduled start date (forecast)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "FPAVZ",
+        "data_element": "Earliest scheduled start time (forecast)",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "FPEDD",
+        "data_element": "Earliest scheduled finish date (forecast)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "FPEDZ",
+        "data_element": "Earliest scheduled finish time (forecast)",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "SPAVD",
+        "data_element": "Latest scheduled start date (forecast)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "SPAVZ",
+        "data_element": "Latest scheduled start time (forecast)",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "SPEDD",
+        "data_element": "Latest scheduled finish date (forecast)",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "SPEDZ",
+        "data_element": "Latest scheduled finish time (forecast)",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "BEAZP",
+        "data_element": "Unit of processing time (Forecast)",
+        "type": "",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "PUFGP",
+        "data_element": "Total float (from forecast)",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "PUFFP",
+        "data_element": "Free float (from forecast)",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "BEARP",
+        "data_element": "Processing time (forecast)",
+        "type": "",
+        "length": "FLTP",
+        "decimals": ""
+      },
+      {
+        "name": "EPANF",
+        "data_element": "Dispatched start date for operation",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "EPANZ",
+        "data_element": "Dispatched start time for operation",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "EPEND",
+        "data_element": "Dispatched finish date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "EPENZ",
+        "data_element": "Dispatched finish time",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "PDAU",
+        "data_element": "Forecasted duration of activity from confirmation",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "PDAE",
+        "data_element": "Unit of the forecasted duration from the confirmation",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "KNOTE",
+        "data_element": "Transportation Connection Points",
+        "type": "TVKN",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "VSTZW",
+        "data_element": "Deadline function",
+        "type": "TVTZ",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "VSTGA",
+        "data_element": "Deadline deviation reason",
+        "type": "TVTG",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "QRASTZEHT",
+        "data_element": "Time Unit",
+        "type": "",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "QRASTZFAK",
+        "data_element": "Time Factor",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "QRASTMENG",
+        "data_element": "Quantity Between Two Inspections",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "QRASTEREH",
+        "data_element": "Grid Unit of Measure",
+        "type": "",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "AUFKT",
+        "data_element": "Execution Factor",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "RMNGA",
+        "data_element": "Total confirmed rework quantity",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "ILE01",
+        "data_element": "Unit of measure for the activity to be confirmed",
+        "type": "",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "ILE02",
+        "data_element": "Unit of measure for the activity to be confirmed",
+        "type": "",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "ILE03",
+        "data_element": "Unit of measure for the activity to be confirmed",
+        "type": "",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "ILE04",
+        "data_element": "Unit of measure for the activity to be confirmed",
+        "type": "",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "ILE05",
+        "data_element": "Unit of measure for the activity to be confirmed",
+        "type": "",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "ILE06",
+        "data_element": "Unit of measure for the activity to be confirmed",
+        "type": "",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "RWFAK",
+        "data_element": "Rework factor (is not used yet)",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "IPRZ1",
+        "data_element": "Confirmed quantity/work for business process",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "IPRE1",
+        "data_element": "Unit of measurement for conf. quantity for business process",
+        "type": "",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "IPRK1",
+        "data_element": "No remaining quantity expected for business process",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "TAKT",
+        "data_element": "takt within a line segment",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "OPRZ1",
+        "data_element": "Remaining quantity for business process",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "OPRE1",
+        "data_element": "Unit for remaining quantity of business process",
+        "type": "",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "PSPM_INDICATOR",
+        "data_element": "Indicates PMCS date influence activity scheduling",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      }
+    ]
+  },
+  "AMPL": {
+    "name": "AMPL",
+    "description": "SAP Table AMPL",
+    "fields": [
+      {
+        "name": "MANDT",
+        "data_element": "Client",
+        "type": "T000",
+        "length": "CLNT",
+        "decimals": ""
+      },
+      {
+        "name": "BMATN",
+        "data_element": "Number of firm's own (internal) inventory-managed material",
+        "type": "MARA",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "AMPNR",
+        "data_element": "Number of AMPL record",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "EMATN",
+        "data_element": "Material Number Corresponding to Manufacturer Part Number",
+        "type": "MARA",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "MFRNR",
+        "data_element": "Number of a Manufacturer",
+        "type": "LFA1",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "WERKS",
+        "data_element": "Plant",
+        "type": "T001W",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "DATUV",
+        "data_element": "Date as of which the MPN materail may be procured",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "DATUB",
+        "data_element": "Date until which the MPN material may be procured",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "REVLV",
+        "data_element": "Revision Level",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "AMPSP",
+        "data_element": "Blocked manufacturer/part combinations",
+        "type": "TAMPSP",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "REOAM",
+        "data_element": "Deletion indicator: AMPL record",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ERDAT",
+        "data_element": "Date on Which Record Was Created",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "ERNAM",
+        "data_element": "Name of Person who Created the Object",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      }
+    ]
+  },
+  "ANLA": {
+    "name": "ANLA",
+    "description": "SAP Table ANLA",
+    "fields": [
+      {
+        "name": "MANDT",
+        "data_element": "Client",
+        "type": "",
+        "length": "CLNT",
+        "decimals": ""
+      },
+      {
+        "name": "BUKRS",
+        "data_element": "Company Code",
+        "type": "T093C",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ANLN1",
+        "data_element": "Main Asset Number",
+        "type": "ANLH",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ANLN2",
+        "data_element": "Asset Subnumber",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ANLKL",
+        "data_element": "Asset Class",
+        "type": "ANKA",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "GEGST",
+        "data_element": "Technical asset number",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ANLAR",
+        "data_element": "Asset types",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ERNAM",
+        "data_element": "Name of Person who Created the Object",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ERDAT",
+        "data_element": "Date on Which Record Was Created",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "AENAM",
+        "data_element": "Name of Person Who Changed Object",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "AEDAT",
+        "data_element": "Changed on",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "XLOEV",
+        "data_element": "Indicator: Account marked for deletion?",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "XSPEB",
+        "data_element": "Indicator: Asset Locked to Acquisition Postings",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FELEI",
+        "data_element": "Screen layout for Asset Accounting",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "KTOGR",
+        "data_element": "Account determination",
+        "type": "T095A",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "XOPVW",
+        "data_element": "Asset under construct. with line item settlement",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ANLTP",
+        "data_element": "Asset Category",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "ZUJHR",
+        "data_element": "Fiscal year in which first acquisition was posted",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "ZUPER",
+        "data_element": "Period in which first acquisition was posted",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "ZUGDT",
+        "data_element": "Asset value date of the first posting",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "AKTIV",
+        "data_element": "Asset capitalization date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "ABGDT",
+        "data_element": "Asset value date for the last retirement",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "DEAKT",
+        "data_element": "Deactivation date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "GPLAB",
+        "data_element": "Planned retirement date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "BSTDT",
+        "data_element": "Asset purchase order date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "ORD41",
+        "data_element": "Evaluation group 1",
+        "type": "T087",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ORD42",
+        "data_element": "Evaluation group 2",
+        "type": "T087",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ORD43",
+        "data_element": "Evaluation group 3",
+        "type": "T087",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ORD44",
+        "data_element": "Evaluation group 4",
+        "type": "T087",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ANLUE",
+        "data_element": "Asset super number",
+        "type": "T087U",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ZUAWA",
+        "data_element": "Key for sorting according to assignment numbers",
+        "type": "TZUN",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ANEQK",
+        "data_element": "Indicator: Historical management",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "ANEQS",
+        "data_element": "Completeness indicator for the asset",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "LIFNR",
+        "data_element": "Account number of vendor (other key word)",
+        "type": "LFA1",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "LAND1",
+        "data_element": "Asset's country of origin",
+        "type": "T005",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "LIEFE",
+        "data_element": "Name of asset supplier",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "HERST",
+        "data_element": "Manufacturer of asset",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "EIGKZ",
+        "data_element": "Property indicator",
+        "type": "T097",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "AIBN1",
+        "data_element": "Original asset that was transferred",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "AIBN2",
+        "data_element": "Original asset that was transferred",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "AIBDT",
+        "data_element": "Original acquisition date of AuC/ transferred asset",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "URJHR",
+        "data_element": "Fiscal year of original acquisition",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "URWRT",
+        "data_element": "Original acquisition value",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "ANTEI",
+        "data_element": "In-house production percentage",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "PROJN",
+        "data_element": "Old: Project number : No longer used --> PS_POSNR",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "EAUFN",
+        "data_element": "Investment Order",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "MEINS",
+        "data_element": "Base Unit of Measure",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "MENGE",
+        "data_element": "Quantity",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "TYPBZ",
+        "data_element": "Asset type name",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "IZWEK",
+        "data_element": "Reason for investment",
+        "type": "T087I",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "INKEN",
+        "data_element": "Inventory indicator",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "IVDAT",
+        "data_element": "Last inventory date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "INVZU",
+        "data_element": "Supplementary inventory specifications",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "VMGLI",
+        "data_element": "Property classification key",
+        "type": "T092",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "XVRMW",
+        "data_element": "Manual net worth tax value",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "WRTMA",
+        "data_element": "Manual net worth tax value",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "EHWRT",
+        "data_element": "Assessed value",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "AUFLA",
+        "data_element": "Date of conveyance",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "EHWZU",
+        "data_element": "Date of last notice of assessment",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "EHWNR",
+        "data_element": "Tax number of the notice of assessment",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "GRUVO",
+        "data_element": "Land Register of",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "GREIN",
+        "data_element": "Land register entry on",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "GRBND",
+        "data_element": "Land register volume",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "GRBLT",
+        "data_element": "Land register page",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "GRLFD",
+        "data_element": "Land register entry: Sequence number",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FLURK",
+        "data_element": "Land register map number",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FLURN",
+        "data_element": "Plot number",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FIAMT",
+        "data_element": "Local tax office",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "STADT",
+        "data_element": "Municipality",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "GRUND",
+        "data_element": "Reason for manual valuation of net assets",
+        "type": "T098",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FEINS",
+        "data_element": "Area unit",
+        "type": "T006",
+        "length": "UNIT",
+        "decimals": ""
+      },
+      {
+        "name": "GRUFL",
+        "data_element": "Surface area",
+        "type": "",
+        "length": "QUAN",
+        "decimals": ""
+      },
+      {
+        "name": "INVNR",
+        "data_element": "Inventory number",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "VBUND",
+        "data_element": "Company ID of trading partner",
+        "type": "T880",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "SPRAS",
+        "data_element": "Language Key",
+        "type": "T002",
+        "length": "LANG",
+        "decimals": ""
+      },
+      {
+        "name": "TXT50",
+        "data_element": "Asset description",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "TXA50",
+        "data_element": "Additional asset description",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "XLTXID",
+        "data_element": "Indicator: Long text active",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "XVERID",
+        "data_element": "Long text indicator:Property values",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "XTCHID",
+        "data_element": "Indicator: Technical view long text",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "XKALID",
+        "data_element": "Indicator: Long text active",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "XHERID",
+        "data_element": "Indicator: Long text for manufacturer/origin",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "XLEAID",
+        "data_element": "Indicator: Leasing data long text",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "LEAFI",
+        "data_element": "Leasing company",
+        "type": "LFA1",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "LVDAT",
+        "data_element": "Leasing agreement date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "LKDAT",
+        "data_element": "Leasing agreement notice date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "LEABG",
+        "data_element": "Lease start date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "LEJAR",
+        "data_element": "Length of lease in years",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "LEPER",
+        "data_element": "Length of lease in periods",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "LRYTH",
+        "data_element": "Lease payment cycle",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "LEGEB",
+        "data_element": "Periodic lease payment paid to leasing company/lessor",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "LBASW",
+        "data_element": "Leasing base value as new",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "LKAUF",
+        "data_element": "Leased asset purchase price",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "LMZIN",
+        "data_element": "Leasing monthly interest rate (Capital Lease)",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "LZINS",
+        "data_element": "Leasing interest rate (capital lease)",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "LTZBW",
+        "data_element": "Posting date of the last lease payment",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "LKUZA",
+        "data_element": "Total of posted leasing payments",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "LKUZI",
+        "data_element": "Total leasing interest posted",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "LLAVB",
+        "data_element": "Total of long-term leasing liability",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "LEANZ",
+        "data_element": "Number of lease payments",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "LVTNR",
+        "data_element": "Leasing agreement number",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "LETXT",
+        "data_element": "Leasing data text",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "XAKTIV",
+        "data_element": "Indicator: Capitalize fixed asset",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ANUPD",
+        "data_element": "Indicator: Type of change to table",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "LBLNR",
+        "data_element": "No. of last document with which posting to asset was made",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "XV0DT",
+        "data_element": "Change date: View 0",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "XV0NM",
+        "data_element": "Name of person in charge, who changed View0",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "XV1DT",
+        "data_element": "Change date: View 1",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "XV1NM",
+        "data_element": "Name of person in charge, who changed view 1",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "XV2DT",
+        "data_element": "Change date: View 2",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "XV2NM",
+        "data_element": "Name of the person in charge, who changed view 2",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "XV3DT",
+        "data_element": "Change date: View 3",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "XV3NM",
+        "data_element": "Name of the person in charge, who changed view 3",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "XV4DT",
+        "data_element": "Change date: View 4",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "XV4NM",
+        "data_element": "Name of the person in charge, who changed view 4",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "XV5DT",
+        "data_element": "Change date:View 5",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "XV5NM",
+        "data_element": "Name of the person in charge who changed view 5",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "XV6DT",
+        "data_element": "Change date:View 6",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "XV6NM",
+        "data_element": "Name of the person in charge who changed view 6",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "AIMMO",
+        "data_element": "Indicator: real estate",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "OBJNR",
+        "data_element": "Object number",
+        "type": "ONR00",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "LEART",
+        "data_element": "Leasing type",
+        "type": "T083L",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "LVORS",
+        "data_element": "Advance payments",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "GDLGRP",
+        "data_element": "Evaluation group 5",
+        "type": "T087G",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "POSNR",
+        "data_element": "WBS element investment project",
+        "type": "PRPS",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "XERWRT",
+        "data_element": "Indicator: Ignore memo value",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "XAFABCH",
+        "data_element": "Asset acquired used",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "XANLGR",
+        "data_element": "Indicator: Asset is a group asset",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "MCOA1",
+        "data_element": "Search term for matchcode search",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "XINVM",
+        "data_element": "Asset under Construction for Investment Measures",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "SERNR",
+        "data_element": "Serial number",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "UMWKZ",
+        "data_element": "Reason for environmental investment",
+        "type": "T087K",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "LRVDAT",
+        "data_element": "Date of last revaluation",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "ACT_CHANGE_PM",
+        "data_element": "Change Asset Master Record from Equipment Master",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "HAS_TDDP",
+        "data_element": "Asset Has Time-Dependent Valuation Parameters in ANLBZA",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "LAST_REORG_DATE",
+        "data_element": "Date of Last Reorganization",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      }
+    ]
+  },
+  "ANLB": {
+    "name": "ANLB",
+    "description": "SAP Table ANLB",
+    "fields": [
+      {
+        "name": "MANDT",
+        "data_element": "Client",
+        "type": "",
+        "length": "CLNT",
+        "decimals": ""
+      },
+      {
+        "name": "BUKRS",
+        "data_element": "Company Code",
+        "type": "T001",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ANLN1",
+        "data_element": "Main Asset Number",
+        "type": "ANLH",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ANLN2",
+        "data_element": "Asset Subnumber",
+        "type": "ANLA",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "AFABE",
+        "data_element": "Real depreciation area",
+        "type": "T093",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "BDATU",
+        "data_element": "Date validity ends",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "ADATU",
+        "data_element": "Date for beginning of validity",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "ERNAM",
+        "data_element": "Name of Person who Created the Object",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ERDAT",
+        "data_element": "Date on Which Record Was Created",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "AENAM",
+        "data_element": "Name of Person Who Changed Object",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "AEDAT",
+        "data_element": "Changed on",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "XLOEV",
+        "data_element": "Indicator: Account marked for deletion?",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "XSPEB",
+        "data_element": "Indicator: Is Account Blocked for Posting?",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FELEI",
+        "data_element": "Screen layout for Asset Accounting",
+        "type": "T082A",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "XNEGA",
+        "data_element": "Indicator: Negative values allowed",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "XGWGK",
+        "data_element": "Low-value asset amount and quantity check",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "XUNTA",
+        "data_element": "Indicator: Depreciate main asset number totally",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "AFABG",
+        "data_element": "Depreciation calculation start date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "ZINBG",
+        "data_element": "Start date for interest calculation",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "SAFBG",
+        "data_element": "Start date for special depreciation",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "INVSL",
+        "data_element": "Investment support key",
+        "type": "T085",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "AFASL",
+        "data_element": "Depreciation key",
+        "type": "T090NA",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "NDJAR",
+        "data_element": "Planned useful life in years",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "NDPER",
+        "data_element": "Planned useful life in periods",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "NAPRZ",
+        "data_element": "Ordinary depreciation percentage rate",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "SAPRZ",
+        "data_element": "Special depreciation percentage rate",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "WBIND",
+        "data_element": "Index series for replacement values",
+        "type": "T094A",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ALIND",
+        "data_element": "Index series for replacement values by age",
+        "type": "T094A",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "APROP",
+        "data_element": "Variable depreciation portion",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "UMJAR",
+        "data_element": "Depreciation key for the changeover year",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "NDURJ",
+        "data_element": "Original useful life in years",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "NDURP",
+        "data_element": "Original useful life in periods",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "SCHRW",
+        "data_element": "Asset scrap value",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "LGJAN",
+        "data_element": "Last fiscal year for the annual values in Asset Acct.",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "PERFY",
+        "data_element": "Period scaling in depreciation start year",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "ANUPD",
+        "data_element": "Indicator: Type of change to table",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "AUFWTG",
+        "data_element": "Revaluation",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "XAFBE",
+        "data_element": "Indicator: Depreciation area is deactivated",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ANLGR",
+        "data_element": "Group asset",
+        "type": "ANLH",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ANLGR2",
+        "data_element": "Subnumber of group asset",
+        "type": "ANLA",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "VYEAR",
+        "data_element": "Acquisition year of the asset (manually changeable)",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "VMNTH",
+        "data_element": "Asset Accounting: Acquis. month (in depreciation area)",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "INBDA",
+        "data_element": "Asset Accounting:  Date of operating readiness",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "ABGDAT_B",
+        "data_element": "Value date of last retirement for the depreciation area",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "J_1AARVKEY",
+        "data_element": "Revaluation Key",
+        "type": "J_1AAA2",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "J_1AALTDAT",
+        "data_element": "Last Revaluation Date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "J_1AALTIDX",
+        "data_element": "Last Index Used",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "SCHRW_PROZ",
+        "data_element": "Scrap Value as Percentage of APC",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "UMPER",
+        "data_element": "Changeover Period of Depreciation Key",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      }
+    ]
+  },
+  "ANLC": {
+    "name": "ANLC",
+    "description": "SAP Table ANLC",
+    "fields": [
+      {
+        "name": "MANDT",
+        "data_element": "Client",
+        "type": "",
+        "length": "CLNT",
+        "decimals": ""
+      },
+      {
+        "name": "BUKRS",
+        "data_element": "Company Code",
+        "type": "T001",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ANLN1",
+        "data_element": "Main Asset Number",
+        "type": "ANLH",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ANLN2",
+        "data_element": "Asset Subnumber",
+        "type": "ANLA",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "GJAHR",
+        "data_element": "Fiscal Year",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "AFABE",
+        "data_element": "Real depreciation area",
+        "type": "ANLB",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "ZUJHR",
+        "data_element": "Asset acquisition year (currently not used)",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "ZUCOD",
+        "data_element": "Sub-classification of asset acquisitions(currently not used)",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "AFBLPE",
+        "data_element": "Period in which last depreciation was posted",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "AFBANZ",
+        "data_element": "Number of depreciation posting runs in the period",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "XAFAR",
+        "data_element": "Indicator: Errors in depreciation",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "NDABJ",
+        "data_element": "Expired useful life in years at start of the fiscal year",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "NDABP",
+        "data_element": "Expired useful life in periods at start of fiscal year",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "ANDSJ",
+        "data_element": "Yrs Expired up to Fisc.Yr Start from Start of Spec.Dep.",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "ANDSP",
+        "data_element": "Expired useful life in periods during FY from SDep start dat",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "RSTCK",
+        "data_element": "Number of units depreciated in unit-of-prod. depreciation",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "KANSW",
+        "data_element": "Cumulative acquisition and production costs",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "KAUFW",
+        "data_element": "Cumulative revaluation on the replacement value",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "KINVZ",
+        "data_element": "Cumulative investment grants",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "KNAFA",
+        "data_element": "Accumulated ordinary depreciation",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "KSAFA",
+        "data_element": "Cumulative special depreciation",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "KAAFA",
+        "data_element": "Cumulative unplanned depreciation",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "KMAFA",
+        "data_element": "Cumulative reserves transfer",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "KZINW",
+        "data_element": "Cumulative interest",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "KAUFN",
+        "data_element": "Cumulative revaluation of ordinary depreciation",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "KANZA",
+        "data_element": "Cumulative down payments",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "KVOST",
+        "data_element": "Cumulative input tax",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "AUFWP",
+        "data_element": "Planned revaluation on replacement value",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "NAFAP",
+        "data_element": "Planned ordinary depreciation for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "SAFAP",
+        "data_element": "Planned special depreciation for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "AAFAP",
+        "data_element": "Scheduled unplanned depreciation for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "MAFAP",
+        "data_element": "Planned transfer of reserves for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "ZINSP",
+        "data_element": "Interest planned for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "AUFNP",
+        "data_element": "Planned revaluation of accumulated ordinary depreciation",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "AUFWB",
+        "data_element": "Revaluation posted on replacement value",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "NAFAG",
+        "data_element": "Ordinary depreciation posted in the current year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "SAFAG",
+        "data_element": "Special depreciation posted in the current fiscal year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "AAFAG",
+        "data_element": "Unplanned depreciation posted for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "MAFAG",
+        "data_element": "Acquisition value reducing depreciation posted for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "ZINSG",
+        "data_element": "Interest posted for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "AUFNG",
+        "data_element": "Posted revaluation of accumulated ordinary depreciation",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "ANSWL",
+        "data_element": "Transactions for the year affecting asset values",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "ABGAN",
+        "data_element": "Total retirements and retiring transfers",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "ANSAZ",
+        "data_element": "Down payments on asset",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "AUFWM",
+        "data_element": "Manual revaluation on replacement value",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "INVZM",
+        "data_element": "Investment grant for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "NAFAM",
+        "data_element": "Manually planned ordinary depreciation for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "SAFAM",
+        "data_element": "Manual special depreciation planned for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "AAFAM",
+        "data_element": "Manual unplanned depreciation for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "MAFAM",
+        "data_element": "Manual transfer of reserves for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "ZINSM",
+        "data_element": "Manual interest planned for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "AUFNM",
+        "data_element": "Manual revaluation of cumulative ordinary depreciation",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "ZUSNA",
+        "data_element": "Write-up on ordinary depreciation",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "ZUSSA",
+        "data_element": "Write-up on special depreciation",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "ZUSAA",
+        "data_element": "Write-up on unplanned depreciation",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "ZUSMA",
+        "data_element": "Write-up on transferred reserves",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "AUFWV",
+        "data_element": "Proportional cumulative revaluation on replacement value",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "INVZV",
+        "data_element": "Proportional cumulative investment grants",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "NAFAV",
+        "data_element": "Proportional accumulated ordinary depreciation",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "SAFAV",
+        "data_element": "Proportional cumulative special depreciation",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "AAFAV",
+        "data_element": "Proportional cumulative unplanned depreciation",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "MAFAV",
+        "data_element": "Proportional cumulative transfer of reserves",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "AUFNV",
+        "data_element": "Proportional cum. revaluation on ordinary depreciation",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "AUFWL",
+        "data_element": "Proportional revaluation for the year on replacement value",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "INVZL",
+        "data_element": "Proportional investment grant for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "NAFAL",
+        "data_element": "Proportional ordinary depreciation for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "SAFAL",
+        "data_element": "Proportional special depreciation for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "AAFAL",
+        "data_element": "Proportional unplanned depreciation for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "MAFAL",
+        "data_element": "Proportional transfer of reserves for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "AUFNL",
+        "data_element": "Proportional revaluation of annual ordinary dep.",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "ANUPD",
+        "data_element": "Indicator: Type of change to table",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "KSANS",
+        "data_element": "Cumulative statistical acquisition value",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "SANSL",
+        "data_element": "Statistical aquisition value of current year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "PSTBEG",
+        "data_element": "FI-AA: Posting depreciation as of period xy",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "PSTEND",
+        "data_element": "FI-AA: Posting depreciation up to period xy",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "PSTCALC",
+        "data_element": "FI-AA: New calculation of depreciation during posting",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PSTPER",
+        "data_element": "FI-AA: Depreciation calculation from period X",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      }
+    ]
+  },
+  "ANLH": {
+    "name": "ANLH",
+    "description": "SAP Table ANLH",
+    "fields": [
+      {
+        "name": "MANDT",
+        "data_element": "Client",
+        "type": "",
+        "length": "CLNT",
+        "decimals": ""
+      },
+      {
+        "name": "BUKRS",
+        "data_element": "Company Code",
+        "type": "T001",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ANLN1",
+        "data_element": "Main Asset Number",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "LUNTN",
+        "data_element": "Last subnumber assigned to this main number",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "LANEP",
+        "data_element": "Last line item number assigned",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "ANUPD",
+        "data_element": "Indicator: Type of change to table",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FUNTN",
+        "data_element": "First subnumber assigned",
+        "type": "ANLA",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ANLHTXT",
+        "data_element": "Asset main number text",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      }
+    ]
+  },
+  "ANLP": {
+    "name": "ANLP",
+    "description": "SAP Table ANLP",
+    "fields": [
+      {
+        "name": "MANDT",
+        "data_element": "Client",
+        "type": "",
+        "length": "CLNT",
+        "decimals": ""
+      },
+      {
+        "name": "BUKRS",
+        "data_element": "Company Code",
+        "type": "T001",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "GJAHR",
+        "data_element": "Fiscal Year",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "PERAF",
+        "data_element": "Depreciation calculation period",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "AFBNR",
+        "data_element": "Sequence number of depreciation posting run in the period",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "ANLN1",
+        "data_element": "Main Asset Number",
+        "type": "ANLH",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ANLN2",
+        "data_element": "Asset Subnumber",
+        "type": "ANLA",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "AFABER",
+        "data_element": "Depreciation area real or derived",
+        "type": "T093",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "ZUJHR",
+        "data_element": "Asset acquisition year (currently not used)",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "ZUCOD",
+        "data_element": "Sub-classification of asset acquisitions(currently not used)",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "AUFWP",
+        "data_element": "Planned revaluation on replacement value",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "AUFWB",
+        "data_element": "Revaluation posted on replacement value",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "AUFWZ",
+        "data_element": "Revaluation on replacement value to be posted",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "NAFAP",
+        "data_element": "Planned ordinary depreciation for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "NAFAG",
+        "data_element": "Ordinary depreciation posted in the current year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "NAFAZ",
+        "data_element": "Ordinary depreciation to be posted",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "SAFAP",
+        "data_element": "Planned special depreciation for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "SAFAG",
+        "data_element": "Special depreciation posted in the current fiscal year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "SAFAZ",
+        "data_element": "Special depreciation to be posted",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "AAFAP",
+        "data_element": "Scheduled unplanned depreciation for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "AAFAG",
+        "data_element": "Unplanned depreciation posted for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "AAFAZ",
+        "data_element": "Unplanned depreciation to be posted",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "MAFAP",
+        "data_element": "Planned transfer of reserves for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "MAFAG",
+        "data_element": "Acquisition value reducing depreciation posted for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "MAFAZ",
+        "data_element": "Transferred reserves to be posted for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "ZINSP",
+        "data_element": "Interest planned for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "ZINSG",
+        "data_element": "Interest posted for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "ZINSZ",
+        "data_element": "Interest for the year to be posted",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "AUFNP",
+        "data_element": "Planned revaluation of accumulated ordinary depreciation",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "AUFNG",
+        "data_element": "Posted revaluation of accumulated ordinary depreciation",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "AUFNZ",
+        "data_element": "Revaluation to be posted on cum. ordinary depreciation",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "ANSWL",
+        "data_element": "Transactions for the year affecting asset values",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "INVZM",
+        "data_element": "Investment grant for the year",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "KTOGR",
+        "data_element": "Account determination",
+        "type": "T095A",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "AFASL",
+        "data_element": "Depreciation key",
+        "type": "T090NA",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "KOSTL",
+        "data_element": "Cost Center",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "GSBER",
+        "data_element": "Business Area",
+        "type": "TGSB",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "CAUFN",
+        "data_element": "Internal order",
+        "type": "AUFK",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "XUNUL",
+        "data_element": "Indicator: Post to below-zero account",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ANUPD",
+        "data_element": "Indicator: Type of change to table",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FKBER",
+        "data_element": "Functional Area",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "BELNR",
+        "data_element": "Document number of a depreciation posting document",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "LSTAR",
+        "data_element": "Activity Type",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "GEBER",
+        "data_element": "Fund",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "GRANT_NBR",
+        "data_element": "Grant",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "GEBER2",
+        "data_element": "Fund for APC Account Assignments",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FKBER2",
+        "data_element": "Functional Area for APC Account Assignments",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "GRANT_NBR2",
+        "data_element": "Grant for APC Account Assignments",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FISTL2",
+        "data_element": "Funds Center for APC Account Assignments",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "IMKEY",
+        "data_element": "Internal Key for Real Estate Object",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PS_PSP_PNR2",
+        "data_element": "WBS Element (Costs)",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "BUDGET_PD",
+        "data_element": "FM: Budget Period",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "BUDGET_PD2",
+        "data_element": "Budget Period for APC Account Assignments",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "SEGMENT",
+        "data_element": "Segment for Segmental Reporting",
+        "type": "FAGL_SEGM",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PRCTR",
+        "data_element": "Profit Center",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FISTL",
+        "data_element": "Funds Center",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      }
+    ]
+  },
+  "ANLV": {
+    "name": "ANLV",
+    "description": "SAP Table ANLV",
+    "fields": [
+      {
+        "name": "MANDT",
+        "data_element": "Client",
+        "type": "",
+        "length": "CLNT",
+        "decimals": ""
+      },
+      {
+        "name": "BUKRS",
+        "data_element": "Company Code",
+        "type": "T001",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ANLN1",
+        "data_element": "Main Asset Number",
+        "type": "ANLH",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ANLN2",
+        "data_element": "Asset Subnumber",
+        "type": "ANLA",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "VRSLFD",
+        "data_element": "Sequence number for insurance data FI-AA",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "VSART",
+        "data_element": "Asset insurance type",
+        "type": "T099",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "VSIND",
+        "data_element": "Insurance index series",
+        "type": "T094A",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "VRSBA",
+        "data_element": "Base insurable value",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "VSBAJ",
+        "data_element": "Base insurable value: Fiscal year update",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "VSGES",
+        "data_element": "Insurance companies",
+        "type": "T099A",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "VSMAN",
+        "data_element": "Update insurable value manually",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "VRSMA",
+        "data_element": "Manual insurable value",
+        "type": "",
+        "length": "CURR",
+        "decimals": ""
+      },
+      {
+        "name": "VRSJH",
+        "data_element": "Maintenance year for manual insurable value",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "VRSJA",
+        "data_element": "Old maintenance year for manual insurable value",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "VRSBG",
+        "data_element": "Insurance start date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "VSTAR",
+        "data_element": "Insurance rate FI-AA",
+        "type": "T099B",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "VSSTX",
+        "data_element": "Insurance policy number",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "SPRAS",
+        "data_element": "Language Key",
+        "type": "T002",
+        "length": "LANG",
+        "decimals": ""
+      },
+      {
+        "name": "XVRSID",
+        "data_element": "Indicator: Insurance long text",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "VSZTX",
+        "data_element": "Supplementary insurance text",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ANUPD",
+        "data_element": "Indicator: Type of change to table",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "LNRAN",
+        "data_element": "Sequence number of asset line items in fiscal year",
+        "type": "ANEK",
+        "length": "NUMC",
+        "decimals": ""
+      }
+    ]
+  },
+  "ANLZ": {
+    "name": "ANLZ",
+    "description": "SAP Table ANLZ",
+    "fields": [
+      {
+        "name": "MANDT",
+        "data_element": "Client",
+        "type": "",
+        "length": "CLNT",
+        "decimals": ""
+      },
+      {
+        "name": "BUKRS",
+        "data_element": "Company Code",
+        "type": "T001",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ANLN1",
+        "data_element": "Main Asset Number",
+        "type": "ANLH",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ANLN2",
+        "data_element": "Asset Subnumber",
+        "type": "ANLA",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "BDATU",
+        "data_element": "Date validity ends",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "ADATU",
+        "data_element": "Date for beginning of validity",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "KOSTL",
+        "data_element": "Cost Center",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "WERKS",
+        "data_element": "Plant",
+        "type": "T001W",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "GSBER",
+        "data_element": "Business Area",
+        "type": "TGSB",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "LSTAR",
+        "data_element": "Activity Type",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "MSFAK",
+        "data_element": "Multiple-shift factor for multiple shift operation",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "XSTIL",
+        "data_element": "Asset shutdown",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "STORT",
+        "data_element": "Asset location",
+        "type": "T499S",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "CAUFN",
+        "data_element": "Internal order",
+        "type": "AUFK",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PLAN1",
+        "data_element": "no longer used",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PLAN2",
+        "data_element": "No longer used",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "RAUMN",
+        "data_element": "Room",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "IAUFN",
+        "data_element": "Maintenance order",
+        "type": "AUFK",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "IPROJ",
+        "data_element": "Old: Project number : No longer used --> PS_POSNR",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "TPLKZ",
+        "data_element": "Unused field length 3",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "TPLNR",
+        "data_element": "Functional Location",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "ANUPD",
+        "data_element": "Indicator: Type of change to table",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "TXJCD",
+        "data_element": "Tax Jurisdiction",
+        "type": "TTXJ",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "IPSNR",
+        "data_element": "WBS element - maintenance project",
+        "type": "PRPS",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "KFZKZ",
+        "data_element": "License plate no. of vehichle",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PERNR",
+        "data_element": "Personnel Number",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "KOSTLV",
+        "data_element": "Cost center responsible for asset",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FISTL",
+        "data_element": "Funds Center",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "GEBER",
+        "data_element": "Fund",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FKBER",
+        "data_element": "Functional Area",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "GRANT_NBR",
+        "data_element": "Grant",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "GEBER2",
+        "data_element": "Fund for APC Account Assignments",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FKBER2",
+        "data_element": "Functional Area for APC Account Assignments",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "GRANT_NBR2",
+        "data_element": "Grant for APC Account Assignments",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FISTL2",
+        "data_element": "Funds Center for APC Account Assignments",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "IMKEY",
+        "data_element": "Internal Key for Real Estate Object",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PS_PSP_PNR2",
+        "data_element": "WBS Element (Costs)",
+        "type": "",
+        "length": "NUMC",
+        "decimals": ""
+      },
+      {
+        "name": "BUDGET_PD",
+        "data_element": "FM: Budget Period",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "BUDGET_PD2",
+        "data_element": "Budget Period for APC Account Assignments",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "SEGMENT",
+        "data_element": "Segment for Segmental Reporting",
+        "type": "FAGL_SEGM",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "PRCTR",
+        "data_element": "Profit Center",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      }
+    ]
+  },
+  "APQL": {
+    "name": "APQL",
+    "description": "SAP Table APQL",
+    "fields": [
+      {
+        "name": "TEMSEID",
+        "data_element": "TemSe object name",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "MANDANT",
+        "data_element": "Queue client",
+        "type": "",
+        "length": "CLNT",
+        "decimals": ""
+      },
+      {
+        "name": "CREDATE",
+        "data_element": "Queue creation date",
+        "type": "",
+        "length": "DATS",
+        "decimals": ""
+      },
+      {
+        "name": "CRETIME",
+        "data_element": "Queue creation time",
+        "type": "",
+        "length": "TIMS",
+        "decimals": ""
+      },
+      {
+        "name": "GROUPID",
+        "data_element": "Group name: Batch input session name",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "QID",
+        "data_element": "Queue identification (unique key)",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "CREATOR",
+        "data_element": "Queue user ID / for historical reasons",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "DESTSYS",
+        "data_element": "Queue target system",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "STATUS",
+        "data_element": "Queue status",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      }
+    ]
+  }
+}

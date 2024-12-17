@@ -1,0 +1,64 @@
+{
+  "TCURR": {
+    "name": "TCURR",
+    "description": "SAP Table TCURR",
+    "fields": [
+      {
+        "name": "MANDT",
+        "data_element": "Client",
+        "type": "T000",
+        "length": "CLNT",
+        "decimals": ""
+      },
+      {
+        "name": "KURST",
+        "data_element": "Exchange Rate Type",
+        "type": "TCURV",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "FCURR",
+        "data_element": "From currency",
+        "type": "TCURC",
+        "length": "CUKY",
+        "decimals": ""
+      },
+      {
+        "name": "TCURR",
+        "data_element": "To-currency",
+        "type": "TCURC",
+        "length": "CUKY",
+        "decimals": ""
+      },
+      {
+        "name": "GDATU",
+        "data_element": "Date As of Which the Exchange Rate Is Effective",
+        "type": "",
+        "length": "CHAR",
+        "decimals": ""
+      },
+      {
+        "name": "UKURS",
+        "data_element": "Exchange Rate",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "FFACT",
+        "data_element": "Ratio for the \"From\" Currency Units",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      },
+      {
+        "name": "TFACT",
+        "data_element": "Ratio for the \"To\" Currency Units",
+        "type": "",
+        "length": "DEC",
+        "decimals": ""
+      }
+    ]
+  }
+}

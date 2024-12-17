@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  hello-app:
+    build: .
+    volumes:
+      - ./output:/app/output
+      - ./sap_tables.csv:/app/sap_tables.csv
+    env_file:
+      - .env
